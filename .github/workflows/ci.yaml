@@ -22,3 +22,6 @@ jobs:
 
       - name: Lancer les tests
         run: python -m pytest -v
+
+      - name: build image
+        run: docker build -t monimage
